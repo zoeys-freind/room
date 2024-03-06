@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>The room</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <span style="position: absolute; top: 0px; left: 0px; color: #0ff; font-family: monospace; z-index: 1; background-color: #000;">
+            I am planning on doing something with this. For now, just walk around i guess. (You can press Space for a debug/stats menu)
+        </span>
+        <div id="touchcontrols" style="z-index: 10; position: absolute; top: 0px; left: 0px; height: 100vh; width: 100vw; display: none;">
+            <button id="w" class="control" style="position: absolute; top: 60vh; left: 15vw;">˄</button>
+            <button id="s" class="control" style="position: absolute; top: 70vh; left: 15vw;">˅</button>
+            <button id="d" class="control" style="position: absolute; top: 65vh; left: 25vw;">&gt;</button>
+            <button id="a" class="control" style="position: absolute; top: 65vh; left: 5vw;">&lt;</button>
+            <button id=" " class="control" style="position: absolute; top: 81vh; left: 15vw; font-size: 75%;">Debug</button>
+            <button id="ArrowUp" class="control" style="position: absolute; top: 60vh; left: 75vw;">˄</button>
+            <button id="ArrowDown" class="control" style="position: absolute; top: 70vh; left: 75vw;">˅</button>
+        </div>
+        <script type="module" src="script.js"></script>
+    </body>
+</html>
